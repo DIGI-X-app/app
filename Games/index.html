@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIGI-X</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:700'><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+    <a class="button" href="TowerN/index.html">نخعی خود را بسازید</a>
+</div>
+
+<!-- Filter: https://css-tricks.com/gooey-effect/ -->
+<svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+        <filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />    
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+            <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+        </filter>
+    </defs>
+</svg>
+<!-- partial -->
+  
+</body>
+</html>
