@@ -1,0 +1,150 @@
+<link rel="icon" type="image/x-icon" href="Digi-X.jpg">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>DIGI-X</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'YourChosenFont', sans-serif;
+        }
+
+        #video-player {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #000000;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: box-shadow 0.3s ease;
+        }
+
+        #video-player:hover {
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+            animation: hover-animation 1s infinite alternate;
+        }
+
+        #video {
+            width: 100%;
+            height: auto;
+            transition: box-shadow 0.3s ease, transform 0.5s ease;
+        }
+
+        #video:hover {
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            animation: hover-animation 1s infinite alternate;
+        }
+
+        #video-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .video-link {
+            width: 48%;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #37b39a;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: box-shadow 0.3s ease, transform 0.5s ease;
+        }
+
+        .video-link:hover {
+            box-shadow: 0 0 10px rgba(183, 255, 2, 0.5);
+            animation: hover-animation 1s infinite alternate;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .video-link {
+                width: 100%;
+            }
+        }
+
+        #credits {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #credits-link {
+            color: #fff;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        #credits-link:hover {
+            color: #ff8c00;
+        }
+        #rt {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #rt-link {
+            color: #fff;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        #rt-link:hover {
+            color: #ff8c00;
+        }
+
+
+        /* استایل برای گزینه SLine */
+        #sline-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #ff8c00;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: box-shadow 0.3s ease, transform 0.5s ease;
+        }
+
+        #sline-button:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            animation: hover-animation 1s infinite alternate;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="video-player">
+        <video id="video" controls></video>
+        <div id="video-links">
+            <div class="video-link" onclick="playVideo('https://imgurl.ir/uploads/h274659_lv_0_20240505142741.mp4')">Deleted</div>
+            <div class="video-link" onclick="playVideo('https://imgurl.ir/uploads/e139_kamalian.mp4')">کمالیان</div>
+            <div class="video-link" onclick="playVideo('https://imgurl.ir/uploads/x668177_.mp4')">🌞 گرما</div>
+            <div class="video-link" onclick="playVideo('https://imgurl.ir/uploads/l64454_lv_0_20240404135124.mp4')">حداد 🥚 ورژن 2</div>
+            <div class="video-link" onclick="playVideo('https://imgurl.ir/uploads/v437_Fall.mp4')">Falling down</div>
+            <div class="video-link" onclick="playVideo('https://imgurl.ir/uploads/h160051_Haddadb.mp4')">🥚 ناصیه دروغگو 🥚</div>
+            <div class="video-link" onclick="playVideo('https://imgurl.ir/uploads/x533206_Dalghak.mp4')">Sigma 🗿</div>
+            <div class="video-link" onclick="playVideo('https://imgurl.ir/uploads/r93035_mok.mp4')">🧊 مکعب ها</div>       
+            <div class="video-link" onclick="playVideo('https://imgurl.ir/uploads/o839455_N.mp4')">🍑 نخعی</div>
+            <div class="video-link" onclick="playVideo('https://imgurl.ir/uploads/d232753_H.mp4')">🥚 حداد</div>
+            <div class="video-link" onclick="playVideo('https://imgurl.ir/uploads/r109399_F2.mp4')">فکور 1</div>
+            <div class="video-link" onclick="playVideo('https://imgurl.ir/uploads/z0651_F.mp4')">فکور 2</div>
+            <div class="video-link" onclick="playVideo('https://imgurl.ir/uploads/q19861_mard.mp4')">مرد تک خایه</div>
+        </div>
+    </div>
+
+    <div id="credits">
+        <span id="credits-link" onclick="openLink('https://t.me/digi_x')">Created By DIGI-X</span>
+    <script>
+        // تابع باز کردن لینک
+        function openLink(link) {
+            window.open(link, '_blank');
+        }
+    </script>
+</body>
+</html>

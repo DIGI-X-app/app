@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'YourChosenFont';
+    src: url('https://nimtornet.github.io/Digi-X/YekanBakh-Heavy.ttf') format('truetype');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'YourChosenFont', sans-serif;
+    background-color: #000000;
+    text-align: center;
+}
+
+#video-player {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 10px; /* تنظیم border-radius برای گرد کردن */
+}
+
+#video-player video {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px; /* گرد کردن گوشه‌های ویدیو */
+}
+
+.video-link {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.video-link:hover {
+    color: #000000;
+}
+
+/* تنظیمات برای موبایل */
+@media only screen and (max-width: 500px) {
+    #video-player {
+        width: 100%;
+    }
+}
+@font-face {
+    font-family: 'YourChosenFont';
+    src: url('https://nimtornet.github.io/Digi-X/YekanBakh-Heavy.ttf') format('truetype');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'YourChosenFont', sans-serif;
+    background-color: #000000;
+    text-align: center;
+}
+
+#video-player {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 10px; /* تنظیم border-radius برای گرد کردن */
+}
+
+#video-player video {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px; /* گرد کردن گوشه‌های ویدیو */
+}
+
+.video-link {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.video-link:hover {
+    color: #000000;
+}
+
+/* تنظیمات برای موبایل */
+@media only screen and (max-width: 500px) {
+    #video-player {
+        width: 100%;
+    }
+}
+@font-face {
+    font-family: 'YourChosenFont';
+    src: url('https://nimtornet.github.io/Digi-X/YekanBakh-Heavy.ttf') format('truetype');
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'YourChosenFont', sans-serif;
+    background-color: #000000;
+    text-align: center;
+}
+
+#video-player {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 10px; /* تنظیم border-radius برای گرد کردن */
+}
+
+#video-player video {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px; /* گرد کردن گوشه‌های ویدیو */
+}
+
+.video-link {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.video-link:hover {
+    color: #000000;
+}
+
+/* تنظیمات برای موبایل */
+@media only screen and (max-width: 500px) {
+    #video-player {
+        width: 100%;
+    }
+}

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'YourChosenFont';
+    src: url('https://nimtornet.github.io/Digi-X/YekanBakh-Heavy.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    font-family: 'YourChosenFont', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.blocked-text {
+    font-size: 24px;
+    color: black; /* رنگ متن */
+}
+
+.download-app {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: rgb(255, 0, 0); /* رنگ پس زمینه با RGB */
+    color: white; /* رنگ متن */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-app:hover {
+    animation: pulsate 1s infinite alternate;
+}
+
+@keyframes pulsate {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7);
+    }
+    100% {
+        box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);
+    }
+}
